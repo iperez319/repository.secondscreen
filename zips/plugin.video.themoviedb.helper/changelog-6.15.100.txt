@@ -1,0 +1,4 @@
+changelog-6.15.100.txt
+- Base upstream: jurialmunkey/plugin.video.themoviedb.helper 6.15.8
+- Fork changes: Watch Service player, resume override, episode-group mapping,
+  and watch-service indicators.

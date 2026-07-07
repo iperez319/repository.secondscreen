@@ -1,0 +1,2 @@
+changelog-2.0.0.txt
+- Watch Service Bridge release for the Kodi second-screen stack.
