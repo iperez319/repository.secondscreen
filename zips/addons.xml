@@ -51,7 +51,7 @@ provider-name="jurialmunkey">
 </addon>
 <addon
     id="plugin.video.watchservice"
-    version="2.1.0"
+    version="2.1.1"
     name="Watch Service Bridge"
     provider-name="iperez">
 
@@ -80,7 +80,7 @@ provider-name="jurialmunkey">
          background thread state leaks between plugin invocations. -->
     <reuselanguageinvoker>false</reuselanguageinvoker>
     <summary lang="en_GB">Bridge between Arctic Fuse 3 and the watch-service</summary>
-    <description lang="en_GB">A tiny sidecar bridge add-on that drives Arctic Fuse 3's Continue Watching, Next Up and Next-Aired surfaces from an external watch-service over HTTP, and posts Kodi playback progress back to it. The read path turns watch-service JSON into Kodi ListItems (with progress ring and resume point); the write path mirrors play/pause/stop events to POST /events/playback. Playback itself is delegated to TMDb Helper. Configure base_url, api_key and user_id in the add-on settings.</description>
+    <description lang="en_GB">A tiny sidecar bridge add-on that drives Arctic Fuse 3's Continue Watching, Next Up and Next-Aired surfaces from an external watch-service over HTTP, and posts Kodi playback progress back to it. The read path turns watch-service JSON into Kodi ListItems (with progress ring and resume point); the write path mirrors play/pause/stop events to POST /events/playback. Playback itself is delegated to TMDb Helper. Configure the watch-service connection and stream-server credentials in the add-on settings.</description>
     <platform>all</platform>
     <license>GPL-3.0-or-later</license>
     <assets>
