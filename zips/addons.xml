@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 <addon id="plugin.video.themoviedb.helper"
-version="6.15.100"
+version="6.16.100"
 name="TMDb Helper"
 provider-name="jurialmunkey">
 <requires>
@@ -51,7 +51,7 @@ provider-name="jurialmunkey">
 </addon>
 <addon
     id="plugin.video.watchservice"
-    version="2.0.1"
+    version="2.1.0"
     name="Watch Service Bridge"
     provider-name="iperez">
 

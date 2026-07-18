@@ -1,0 +1,2 @@
+- Forward launch-scoped stream selection ids to infuse-jellyfin-mock redirects.
+- Forward foreground iOS playback-intent ids through playback and safely append them to validated TMDb Helper command URLs.
