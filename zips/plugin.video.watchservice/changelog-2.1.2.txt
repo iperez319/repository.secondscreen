@@ -1,0 +1,2 @@
+- Report Kodi seek callback target positions immediately so Live Activity and remote playback state stay synchronized.
+- Preserve the current playing or paused phase when publishing seek updates.
