@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 <addon id="plugin.video.themoviedb.helper"
-version="6.16.100"
+version="6.17.100"
 name="TMDb Helper"
 provider-name="jurialmunkey">
 <requires>
@@ -10,7 +10,7 @@ provider-name="jurialmunkey">
   <import addon="script.module.pil" version="1.1.7"/>
   <import addon="script.module.addon.signals" version="0.0.6" />
   <import addon="script.module.jurialmunkey" version="0.2.35" />
-  <import addon="script.module.infotagger" version="0.0.5" />
+  <import addon="script.module.infotagger" version="0.0.9" />
   <import addon="script.module.qrcode" version="6.1.0" />
 </requires>
 <extension point="xbmc.python.pluginsource" library="resources/plugin.py">
