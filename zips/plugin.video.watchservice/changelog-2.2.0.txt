@@ -1,0 +1,5 @@
+- Resolve playback through the stream server's JSON resolve API before telling Kodi it succeeded, so Kodi no longer has to follow the /Torrents redirect itself.
+- Fail playback cleanly with an "Unable to play" notification when there is no stream, an auth failure, a server error, a timeout (20s), or an invalid response, so the loading overlay no longer hangs.
+- Reject play requests that are missing a TMDb ID, season, or episode before contacting the server; a blank display season/episode now falls back to the normal numbering.
+- Keep the stream-server API key inside the add-on, never in the URL handed to the player, and never log provider stream URLs.
+- Exclude tracked Python bytecode from the release package.

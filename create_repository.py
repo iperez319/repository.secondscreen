@@ -13,7 +13,7 @@ from xml.etree import ElementTree
 
 REPO_ID = "repository.secondscreen"
 RAW_BASE_URL = "https://raw.githubusercontent.com/iperez319/repository.secondscreen/main/zips"
-ADDON_ZIP_RETENTION_COUNT = 5
+ADDON_ZIP_RETENTION_COUNT = 6  # Current release plus five previous versions.
 
 ROOT = Path(__file__).resolve().parent
 ZIPS_DIR = ROOT / "zips"

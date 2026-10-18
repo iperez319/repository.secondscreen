@@ -1,0 +1,3 @@
+- Base upstream: jurialmunkey/plugin.video.themoviedb.helper 6.17.9
+- Preserve Watch Service playback, watched indicators, and episode-group mapping.
+- Move fork translation IDs to avoid collisions with upstream labels.
